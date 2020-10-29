@@ -1,0 +1,148 @@
+/* .lt-blue {
+  background-color: gray;
+} */
+
+.pad {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 100vw;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e9974+0,22b77e+44,1fc47f+68,7be5be+100 */
+  background: #1e9974; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #1e9974 0%,
+    #22b77e 44%,
+    #1fc47f 68%,
+    #7be5be 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #1e9974 0%,
+    #22b77e 44%,
+    #1fc47f 68%,
+    #7be5be 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e9974 0%,
+    #22b77e 44%,
+    #1fc47f 68%,
+    #7be5be 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e9974', endColorstr='#7be5be',GradientType=1 ); /* IE6-9 */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  /* height: 30vh; */
+  color: white;
+}
+
+.copy {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* .footer-menu {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.2rem;
+  margin: auto;
+  text-align: center;
+
+  font-size: 14px;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  padding-top: 0;
+  padding-bottom: 0;
+} */
+
+.footer-menu {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  color: white;
+}
+
+.footer-menu li + li:before {
+  content: " | ";
+  padding: 0 10px;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.footer-menu a {
+  text-decoration: none;
+
+  /* padding-left: 1rem; */
+}
+
+.footer-icons {
+  display: flex;
+
+  font-size: 2rem;
+  width: 40vw;
+  justify-content: center;
+  /* align-content: center; */
+  /* align-items: center; */
+}
+
+.footer-icons a {
+  text-decoration: none;
+}
+
+.footer-icons i {
+  color: white;
+  padding: 0 1rem 0 1rem;
+}
+
+.footer-float {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15px;
+}
+
+.footer-float a {
+  color: white;
+  text-decoration: none;
+}
+.footer-float a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer p {
+  font-size: 14px;
+  text-align: center;
+  box-align: bottom;
+}
+
+.footer-container {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}

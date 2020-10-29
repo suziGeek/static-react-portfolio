@@ -1,0 +1,51 @@
+.row_odd {
+  width: 50vw;
+  height: 48vh;
+  text-align: center;
+}
+
+.row_even {
+  width: 50vw;
+  height: 48vh;
+  text-align: center;
+}
+
+/* .container-row {
+  display: block;
+  width: 100vw;
+  height: 45vh;
+   flex-direction: row;
+  justify-content: center; 
+} */
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-rthalf {
+  display: flex;
+
+  width: 50vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-lfthalf {
+  display: flex;
+
+  width: 50vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lt-blue {
+  background-color: rgb(152, 157, 158);
+}
+
+.cor {
+  background-color: #ff6f61;
+}
